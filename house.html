@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="shortcut icon" href="./images/airbnb-facicon.png" />
+    <script
+      src="https://kit.fontawesome.com/42c1b12e10.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Airbnb Clone</title>
+  </head>
+<body>
+  
+  <nav id="navBar" class="navbar-white">
+    <a href="index.html">
+      <img src="images/log.png" alt="" class="logo" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="#" class="active">Popular Places</a></li>
+      <li><a href="listing.html">Hotels Near Me</a></li>
+      <li><a href="house.html">My Hotel</a></li>
+
+    </ul>
+    <a href="#" class="register-btn">Register Now</a>
+    <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+  </nav>
+
+  <div class="house-details">
+    <div class="house-title">
+      <h1>Hotel Avion Park Mumbai</h1>
+      <div class="row">
+        <div>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+          <span>245 Reviews</span>
+        </div>
+        <div>
+          <p>Location: Marine Drive, Mumbai, Maharashtra</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <div class="gallery-img-1">
+        <img src="images/house-1.png" alt="" />
+      </div>
+      <div>
+        <img src="images/house-2.png" alt="" />
+      </div>
+      <div>
+        <img src="images/house-3.png" alt="" />
+      </div>
+      <div>
+        <img src="images/house-4.png" alt="" />
+      </div>
+      <div>
+        <img src="images/house-5.png" alt="" />
+      </div>
+    </div>
+      <div class="small-details">
+        <h2>Entire rental unit hosted by Om Jaju</h2>
+        <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</p>
+        <h4>₹ 1000 / day</h4>
+      </div>
+
+      <hr class="line">
+
+      <form class="check-form">
+         <div>
+            <label for="">Check-in</label>
+            <input type="text" placeholder="Add Date">
+        </div>
+        <div>
+            <label for="">Check-out</label>
+            <input type="text" placeholder="Add Date">
+        </div>
+        <div>
+            <label class="guest-field" > Guest</label>
+            <input type="text" placeholder="2 Guest">
+        </div>
+    
+        <button type="submit">Check Availability</button>
+    </form>
+
+    <ul class="details-list">
+        <li><i class="fas fa-home"></i>
+            Entire Home
+            <span>You will have the entire flat for you.</span>
+        </li>
+        <li><i class="fas fa-paint-brush"></i>
+            Enhanced Clean
+            <span>This host has commited to airbnb's cleaning process</span>
+        </li>
+        <li><i class="fas fa-map-marker-alt"></i>
+        Great Location
+            <span>90% of recent guests gave the lovcation a 5 star rating.</span>
+        </li>
+        <li><i class="fas fa-heart"></i>
+        Great Check-in Experience
+            <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+        </li>
+        
+    </ul>
+        <hr class="line">
+        <p class="home-desc">
+            In the heart of downtown Mumbai,Avion Park  is a Kasa original within walking distance of Maring Drive, Bandra, and Mumbai. Built in 2000's, this historic property in the Nob Hill neighborhood is surrounded by Victorian architecture and upscale dining. Experience the City by the Bay the right way! Our tech-enabled apartments offer self check-in at 4pm, 24/7 guest support by text, phone, or chat, and a Virtual Front Desk accessed via mobile device.
+        </p>
+        <hr class="line">
+
+        <div class="map">
+            <h3>
+                Location on Map
+            </h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.732948620353!2d72.82042337520205!3d18.943211082234235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e25ee8439d%3A0x5acd924f2726ad2b!2sMarine%20Dr%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1729834212045!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <b>Marine Drive, Mumbai, Maharashtra</b>
+            <p>It's like a home away from home.</p>
+        </div>
+        <hr class="line">
+
+    <div class="footer">
+      <a href="#"
+        ><i class="fa-brands fa-linkedin"></i
+      ></a>
+      <a href="#"
+        ><i class="fa-brands fa-instagram"></i
+      ></a>
+      <a href="#"
+        ><i class="fa-brands fa-twitter"></i
+      ></a>
+      <hr />
+      <p>Copyright &copy, OJ 2023</p>
+    </div>
+  </div>
+
+
+  <script>
+    var navBar = document.getElementById("navBar");
+    function togglebtn() {
+      navBar.classList.toggle("hidemenu");
+    }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="shortcut icon" href="./images/airbnb-facicon.png" />
+    <script
+      src="https://kit.fontawesome.com/42c1b12e10.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Oyulu</title>
+  </head>
+  <body>
+    <div class="header">
+      <!-----------------------------------Nav Bar------------------------------- -->
+      <nav id="navBar">
+        <img src="/images/log.png" class="logo" />
+        <ul class="nav-links">
+          <li><a href="#" class="active">Popular Places</a></li>
+          <li><a href="listing.html">Hotels Near Me</a></li>
+          <li><a href="house.html">My House</a></li>
+        </ul>
+        <a href="#" class="register-btn">Register Now</a>
+        <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+      </nav>
+
+      <!---------------------------------Home Page------------------------------- -->
+      <div class="container">
+        <h1>Find Your Next Stay</h1>
+        <div class="search-box">
+          <form>
+            <div class="location-input">
+              <label>Location</label>
+              <input type="text" placeholder="Where are you going?" />
+            </div>
+            <div>
+              <label>Check in</label>
+              <input type="text" placeholder="Add Date" />
+            </div>
+            <div>
+              <label>Check Out</label>
+              <input type="text" placeholder="Add Date" />
+            </div>
+            <div>
+              <label>Guest</label>
+              <input type="text" placeholder="Add Guest" />
+            </div>
+
+            <button type="submit">
+              <img src="./images/search.png" alt="" />
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------------------Exclusives section------------------------------- -->
+    <div class="container">
+      <h2 class="subtitles">Exclusives</h2>
+      <div class="exclusives">
+        <div>
+          <img src="./images/mumbai.jpg" alt="" />
+          <span>
+            <h3>Mumbai</h3>
+            <p>Starts @ ₹2500</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/kashmir.jpg" alt="" />
+          <span>
+            <h3>Kashmir</h3>
+            <p>Starts @ ₹2300</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/goa.jpg" alt="" />
+          <span>
+            <h3>Goa</h3>
+            <p>Starts @ ₹1500</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/kerla.jpg" alt="" />
+          <span>
+            <h3>Kerla</h3>
+            <p>Starts @ ₹2200</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/karnataka.jpg" alt="" />
+          <span>
+            <h3>Karnataka</h3>
+            <p>Starts @ ₹2700</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/agra.jpg" alt="" />
+          <span>
+            <h3>Agra</h3>
+            <p>Starts @ ₹1300</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/kochin.jpg" alt="" />
+          <span>
+            <h3>Kochi</h3>
+            <p>Starts @ ₹2700</p>
+          </span>
+        </div>
+        <div>
+          <img src="./images/bengaluru.jpg" alt="" />
+          <span>
+            <h3>Bengaluru</h3>
+            <p>Starts @ ₹1700</p>
+          </span>
+        </div>
+        <div class="hyderabad">
+          <img src="./images/hyderabad.jpg" alt="" />
+          <span>
+            <h3>Hyderabad</h3>
+            <p>Starts @ ₹2900</p>
+          </span>
+        </div>
+        <div class="shimla">
+          <img src="./images/shimla.webp" alt="" />
+          <span>
+            <h3>Shimla</h3>
+            <p>Starts @ ₹1200</p>
+          </span>
+        </div>
+      </div>
+
+      <!---------------------------------Trending Places------------------------------- -->
+      <h2 class="subtitles">Trending Places</h2>
+      <div class="trending">
+        <div>
+          <img src="./images/mumbai.jpg" alt="" />
+          <h3>Mumbai</h3>
+        </div>
+        <div>
+          <img src="./images/kerla.jpg" alt="" />
+          <h3>Kerla</h3>
+        </div>
+        <div>
+          <img src="./images/goa.jpg" alt="" />
+          <h3>Goa</h3>
+        </div>
+        <div>
+          <img src="./images/shimla.webp" alt="" />
+          <h3>Shimla</h3>
+        </div>
+      </div>
+
+      <!---------------------------------CTA------------------------------- -->
+
+      <div class="cta">
+        <h3>
+          Rent a Hotel <br />
+          and get a ride for free
+        </h3>
+        <p>
+          Rent a Hotel and get an e-bike to visit places <br />
+          and make your stay even more enjoyable.
+        </p>
+        <a href="#" class="cta-btn">Know More</a>
+      </div>
+
+      <!---------------------------  Traveler's Stories------------------------------------- -->
+      <div class="subtitles">
+        Traveller's Stories
+
+        <div class="stories">
+          <div>
+            <img src="./images/story-1.png" alt="" />
+            <p>Popular European countries with a budget of just ₹10,000.</p>
+          </div>
+          <div>
+            <img src="./images/story-2.png" alt="" />
+            <p>Traveled more than 100 countries in less than a year.</p>
+          </div>
+          <div>
+            <img src="./images/story-3.png" alt="" />
+            <p>Best experience you get while travelling to Thailand.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-msg">
+        <h2 class="about-head">About Oyulu</h2>
+        <p>
+          Introducing Oyulu, the innovative solution that merges the best of both worlds: comfortable, affordable accommodations and eco-friendly mobility. Oyulu offers a unique platform that connects travelers with cozy lodging options while providing access to Yulu's sustainable electric bikes and scooters. <br>
+          <b>Seamless Booking Experience:</b>
+          Users can easily find and book charming accommodations, ranging from private rooms to shared spaces, all in one app. Our intuitive interface allows for quick comparisons and instant bookings. <br>
+          <b>Eco-Friendly Transportation:</b> Once you arrive, explore your destination effortlessly with Yulu’s fleet of electric bikes and scooters available for rent directly through the Oyulu app. Travel sustainably while enjoying the sights and sounds of the city. <br>
+          <b>Personalized Recommendations:</b> Oyulu leverages smart algorithms to suggest lodging and transportation options tailored to your preferences, making every trip unique. <br>
+          <b>Integrated User Experience:</b> Manage your entire travel itinerary in one place. From accommodation to transportation, Oyulu ensures a hassle-free experience with integrated booking confirmations and easy navigation. <br>
+          <b>Local Insights and Community Engagement:</b> Engage with local hosts and fellow travelers through our community features, fostering connections and discovering hidden gems in every destination. <br>
+          <span> With Oyulu, enjoy a smarter, greener, and more connected travel experience. Embrace the journey, whether you're unwinding in a cozy home or zipping around on a Yulu bike—Oyulu has you covered.</span>
+         
+                   </p>
+      </div>
+
+      <!---------------------------Footer------------------------------------- -->
+
+      <div class="footer">
+        <a href="#"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="#"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <hr />
+        <p>Copyright &copy, Oyulu 2024</p>
+      </div>
+    </div>
+
+    <script>
+      var navBar = document.getElementById("navBar");
+      function togglebtn() {
+        navBar.classList.toggle("hidemenu");
+      }
+    </script>
+  </body>
+</html>
