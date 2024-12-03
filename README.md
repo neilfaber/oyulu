@@ -1,6 +1,6 @@
 # Airbnb Clone Using HTML and CSS
 
-### [ Live Site ](https://airbnbclone-oj.netlify.app/)
+### [ Live Site ](https://neilfaber.github.io/oyulu/)
 
 ## Key Points:
 
